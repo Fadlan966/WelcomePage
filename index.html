@@ -11,8 +11,7 @@
     <style>
       body {
         background-color: white;
-        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-          sans-serif;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
         margin: 0;
         padding: 0;
       }
@@ -39,6 +38,8 @@
         color: #042c81;
         padding-top: 18rem;
         padding-bottom: 18rem;
+        background-size: cover;
+        background-position: center;
       }
 
       .feature {
@@ -55,6 +56,13 @@
         background-color: #384047;
         color: #fff;
         padding: 1rem 0;
+      }
+
+      @media (max-width: 768px) {
+        .jumbotron {
+          padding-top: 8rem;
+          padding-bottom: 8rem;
+        }
       }
     </style>
   </head>
@@ -158,5 +166,9 @@
     <footer class="footer py-3">
       <p>Copyright &copy; 2023 - Fdln Codeweb. All Right Reserved.</p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
